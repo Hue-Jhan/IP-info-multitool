@@ -1,5 +1,5 @@
-# IP-info-multitool
-Multitool that gets info on a given IP address like Host, ISP, location, checks if its a proxy and more.
+# Track Huer
+Multitool that gets info on a given IP address like Host, ISP, location, checks if its a proxy and more. (The name comes from tracker + hue xdd)
 <img align="middle" src="media/trackhuer1.png" width="600" />
 
 # 💻 Code
