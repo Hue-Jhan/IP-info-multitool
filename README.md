@@ -31,4 +31,4 @@ Links to API: [ip-location](https://api.iplocation.net/) and [proxy checker](htt
 <img align="left" src="media/trackhuer6.png" width="350" /> 
 
 
-<img align="left" src="media/trackhuer7.png" width="380" />
+<img align="left" src="media/trackhuer7.png" width="450" />
