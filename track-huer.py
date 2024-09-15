@@ -78,7 +78,6 @@ def proxy_checker():
         response.raise_for_status()
         data = response.json()
 
-        # Extract relevant information
         if data.get('status') == 'ok' and proxy_ip in data:
             info = data[proxy_ip]
             proxy_type = info.get('type', 'N/A')
