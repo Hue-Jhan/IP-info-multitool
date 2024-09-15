@@ -14,8 +14,8 @@ The multitool presents a simple ASCII interface, and a menu with 3 options:
 
 Links to API: [ip-location](https://api.iplocation.net/) and [proxy checker](https://proxycheck.io/)
 
-<img align="left" src="media/trackhuer3.png" width="350" />
-<img align="left" src="media/trackhuer4.png" width="475" />
+<img align="left" src="media/trackhuer3.png" width="320" />
+<img align="left" src="media/trackhuer4.png" width="455" />
 <p> </p> 
 
 ---
