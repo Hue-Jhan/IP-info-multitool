@@ -12,7 +12,7 @@ The multitool presents a simple ASCII interface, and a menu with 3 options:
 - VPN/Tor/Botnet check: checks in known databases if the ip is a potential threat. The databases are very old cuz it wont recognize anything at all, dont use this function, use Proxy checker instead. 
 - Ip grabber: imma add this in the future. 
 
-Links to API: [ip-location](https://api.iplocation.net/) and [proxy checker](https://proxycheck.io/)
+Links to API: [ip-location](https://api.iplocation.net/), [proxy checker](https://proxycheck.io/) and [Host/ISP info](https://www.ip2location.io/) + [Vpn/Tor/Botnet checker](https://www.ip2location.io/)
 
 <img align="left" src="media/trackhuer3.png" width="320" />
 <img align="left" src="media/trackhuer4.png" width="455" />
