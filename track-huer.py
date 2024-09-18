@@ -2,7 +2,7 @@ import os
 import requests
 import sys
 
-apikey = ' X '
+apikey = 'XXXXXX'
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
