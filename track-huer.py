@@ -48,7 +48,7 @@ def print_menu():
 
 
 def fetch_ip_info():
-    os.system('cls')
+    clear_screen()
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(1) IP info \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -75,7 +75,7 @@ def fetch_ip_info():
 
 
 def host_info():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clear_screen()
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(3) Isp and Host info \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -112,7 +112,7 @@ def host_info():
 
 
 def proxy_checker():
-    os.system('cls')
+    clear_screen()
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(2) Proxy Checker \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -139,7 +139,7 @@ def proxy_checker():
 
 
 def bot_check():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clear_screen()
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(4) VPN or Botnet Check (Api sucks and gives wrong results) \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
