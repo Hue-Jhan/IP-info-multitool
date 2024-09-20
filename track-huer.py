@@ -9,7 +9,7 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-def print_banner2():
+def print_banner():
     print("\n" * 2)
     print(
         "\033[38;2;0;255;0m    ███        ▄████████    ▄████████  ▄████████    ▄█   ▄█▄        ▄█    █▄    ███    █▄     ▄████████    ▄████████\033[0m")
@@ -32,7 +32,7 @@ def print_banner2():
     print("\n" * 1)
 
 
-def print_banner():
+def print_banner2():
     print("\n" * 2)
     print("\033[38;2;0;255;0m   ▄█     ▄███████▄ ▄█████████▄    ▄█    █▄    ███    █▄     ▄████████ \033[0m")
     print("\033[38;2;0;242;64m  ███    ███    █████▀       ▄██  ███    ███   ███    ███   ███    ███ \033[0m")
