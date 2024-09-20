@@ -4,7 +4,7 @@ Multitool that includes info gatherer on a given IP address (Host, ISP), IP Geol
 <img align="middle" src="media/trackhuer5.png" width="600" />
 
 # 💻 Code
-The multitool presents a simple ASCII interface, and a menu with 5 options:
+The multitool presents a simple ASCII interface, 2 custom banners, and a menu with 5 options:
 
 - IP info: uses ip-location api to scan a given address, giving you informations such as hostname, city, region and country, location (in coordinates) and organisation.
 - Proxy checker: uses proxychecker api to analyze an ip address, finds out wether its residential or part of a business, and if its a proxy/vpn.
