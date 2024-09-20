@@ -61,4 +61,4 @@ Links to API: [ip-location](https://api.iplocation.net/), [proxy checker](https:
 
 ---
 Here is the ip logger, more info about this on my page here [https://github.com/Hue-Jhan/IP-logger-and-tracker](https://github.com/Hue-Jhan/IP-logger-and-tracker):
-<img align="left" src="media/iploggerpy.png" width="700" />
+<img align="left" src="media/iploggerpy3.png" width="701" />
