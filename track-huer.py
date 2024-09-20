@@ -1,8 +1,9 @@
 import os
 import requests
 import sys
+from iplogger import run_ip_logger
 
-apikey = 'XXXXXX'
+apikey = 'XXX'
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -41,14 +42,14 @@ def print_menu():
     print("\033[38;2;0;214;144m        ║\033[0m")
     print("\033[38;2;0;198;174m        ╠══(4) VPN/TOR/Botnet check (Api sucks)\033[0m")
     print("\033[38;2;0;183;194m        ║\033[0m")
-    print("\033[38;2;0;168;204m        ╠══(5) IP Grabber (Will add later)\033[0m")
+    print("\033[38;2;0;168;204m        ╠══(5) IP Grabber \033[0m")
     print("\033[38;2;0;150;215m        ║\033[0m")
     print("\033[38;2;0;130;235m        ╚╦═(6) Exit\033[0m")
     print("\033[38;2;0;130;235m         ║\033[0m")
 
 
 def fetch_ip_info():
-    clear_screen()
+    os.system('cls' if os.name == 'nt' else 'clear')
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(1) IP info \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -75,7 +76,7 @@ def fetch_ip_info():
 
 
 def host_info():
-    clear_screen()
+    os.system('cls' if os.name == 'nt' else 'clear')
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(3) Isp and Host info \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -112,7 +113,7 @@ def host_info():
 
 
 def proxy_checker():
-    clear_screen()
+    os.system('cls')
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(2) Proxy Checker \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -139,7 +140,7 @@ def proxy_checker():
 
 
 def bot_check():
-    clear_screen()
+    os.system('cls' if os.name == 'nt' else 'clear')
     print_banner()
     print("\033[38;2;0;255;0m         ╔════(4) VPN or Botnet Check (Api sucks and gives wrong results) \033[0m")
     print("\033[38;2;0;230;128m         ║ \033[0m")
@@ -176,6 +177,15 @@ def bot_check():
     input("\nPress Enter to return to the menu...")
 
 
+def ip_logger():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print_banner()
+    print("\033[38;2;0;255;0m         ╔════(5) IP Logger \033[0m")
+    print("\033[38;2;0;230;128m         ║ \033[0m")
+    print("\033[38;2;0;230;255m         ╚══════> Initializing Ngrok tunnel... \033[0m")
+    print()
+    run_ip_logger()
+
 
 def main():
     while True:
@@ -192,11 +202,12 @@ def main():
         elif choice == "4":
             bot_check()
         elif choice == "5":
-           print("not yet cuh")
+            ip_logger()
         elif choice == "6":
+            clear_screen()
             sys.exit()
         else:
-            print("Invalid option selected. Please try again.")
+            print("Invalid option selected.")
             input("\nPress Enter to try again...")
 
 
