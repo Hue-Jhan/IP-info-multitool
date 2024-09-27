@@ -1,5 +1,5 @@
 # Track Huer
-Multitool that includes info gatherer on a given IP address (Host, ISP), IP Geolocator, proxy checker, threat checker and IP Logger. (The name comes from tracker + hue xdd)
+Multitool that includes IP logger, info gatherer on a given IP address (Host, ISP), IP Geolocator, proxy checker and threat checker (The name comes from tracker + hue xdd)
 
 <img align="middle" src="media/trackhuer5.png" width="600" />
 
